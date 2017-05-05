@@ -7,6 +7,7 @@ public class SystemStats {
 		System.out.println("System.nanoTime(): " + System.nanoTime());
 		System.out.println("System.getProperty(\"user.name\"): " + System.getProperty("user.name"));
 		System.out.println("System.getProperty(\"java.library.path\"): " + System.getProperty("java.library.path"));
+		System.out.println("System.getProperty(\"java.class.path\"): " + System.getProperty("java.class.path"));
 		System.out.println("System.getProperties().list(System.out):");
 	   	System.getProperties().list(System.out);
 	}
