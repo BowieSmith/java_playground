@@ -1,3 +1,5 @@
+// Unfinished
+
 public class VampireNumbers {
 	public static boolean isVampireNumber(int n) {
 		int numberOfDigits = Math.floor(Math.log10(n)) + 1;
@@ -13,6 +15,7 @@ public class VampireNumbers {
 	}
 }
 
+/*
 1 2 3 4
 
 12 * 34
@@ -29,3 +32,4 @@ public class VampireNumbers {
 14 * 32
 41 * 23
 31 * 32
+*/
